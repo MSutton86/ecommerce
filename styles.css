@@ -86,3 +86,8 @@ head {
     margin: 0px;
     padding-top: 30px;
 }
+
+.nav img {
+    height: 3px;
+    width: 3px;
+}
