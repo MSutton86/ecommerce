@@ -1,0 +1,88 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 20px;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 110.5%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+body{
+    margin: 84px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.logo{
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+.logo img {
+    width: 26px;
+}
+
+.border-bottom {
+    border-bottom: black solid 3px;
+    padding-bottom: 6px;
+}
+header{
+    position: fixed;
+    box-shadow: 0px 3px 12px #707070;
+    width: 100%;
+    top: 0px;
+}
+
+.align-baseline {
+    align-items: baseline;
+}
+
+section {
+    margin: 84px;
+}
+
+.product-card img {
+
+}
+
+head {
+    width: 75%;
+}
+
+.bg1 {
+    background-color: #bf7631;
+}
+
+.bg2 {
+    background-color: #FFFFFF;
+}
+
+.bg3 {
+    background-color: #000;
+}
+
+head {
+    margin: 0px;
+    padding-top: 30px;
+}
