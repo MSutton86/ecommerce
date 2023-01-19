@@ -19,6 +19,7 @@ html{
 
 .flex-container {
     display: flex;
+    
 }
 
 .justify-evenly {
@@ -58,12 +59,11 @@ header{
     align-items: baseline;
 }
 
-section {
-    margin: 84px;
-}
+
 
 .product-card img {
-
+    display: inline-flexbox;
+    margin: 0px;
 }
 
 head {
@@ -84,10 +84,12 @@ head {
 
 head {
     margin: 0px;
-    padding-top: 30px;
+    padding-top: 0px;
 }
 
-.nav img {
-    height: 3px;
-    width: 3px;
+header {
+    padding-top: 0px;
+}
+
+.img_under_text{
 }
